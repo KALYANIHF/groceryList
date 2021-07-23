@@ -1,0 +1,91 @@
+*,
+::after,
+::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  position: relative;
+}
+.cg__container {
+  width: 550px;
+  height: auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  box-shadow: 5px 5px 18px 10px beige;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.grocery-value {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.submit {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.list-container {
+  padding-top: 30px;
+  display: none;
+}
+.clear-list {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.grocery-list {
+  margin-bottom: 15px;
+}
+.title {
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete-btn,
+.modify-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+}
+.fa-trash {
+  color: red;
+}
+.fa-sync {
+  color: green;
+}
+.alert {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.3rem;
+  font-style: italic;
+  font-size: 13px;
+}
+.heading {
+  text-align: center;
+}
+.heading h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.3rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.show-container {
+  display: block;
+}
